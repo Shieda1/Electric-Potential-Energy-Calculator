@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electric Potential Energy Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="electricPotentialEnergyRadio" name="variables" checked>
+  <label for="electricPotentialEnergyRadio">Electric Potential Energy</label>
+
+  <input type="radio" id="chargeofobject1Radio" name="variables">
+  <label for="chargeofobject1Radio">Charge of object 1</label>
+
+  <input type="radio" id="chargeofobject2Radio" name="variables">
+  <label for="chargeofobject2Radio">Charge of object 2</label>
+
+  <input type="radio" id="distancebetweentwochargesRadio" name="variables">
+  <label for="distancebetweentwochargesRadio">Distance between two charges</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Charge of object 1 (Coulomb)</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Charge of object 2 (Coulomb)</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Distance between two charges (m)</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button> 
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
